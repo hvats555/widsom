@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>bookdetails</class>
+ <widget class="QDialog" name="bookdetails">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#bookdetails{
+	/*background-image:url(C:/Users/Himalaya vats/Desktop/p.jpg)*/
+	background-color:white
+}</string>
+  </property>
+  <widget class="QLabel" name="cover_image">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>131</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>531</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox{
+	background-color:white;
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>391</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#title{
+    font-family: Georgia, serif;
+	font-size:28px;
+    font-weight: bold;
+   
+    border-bottom: solid 1px #006600;
+}</string>
+    </property>
+    <property name="text">
+     <string>Title Placeholder</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>141</x>
+      <y>81</y>
+      <width>67</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="publisher_label">
+       <property name="text">
+        <string>Publisher :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="catagory_label">
+       <property name="text">
+        <string>Catagory :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="page_count_label">
+       <property name="text">
+        <string>Page count :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="publishdate_label">
+       <property name="text">
+        <string>Publish date :</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="book">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>101</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>50</y>
+      <width>176</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">#label_3{  
+    font-family: Georgia, serif;
+	font-size:12px;
+    font-weight: bold;
+
+    border-bottom: solid 1px #006600;
+}</string>
+       </property>
+       <property name="text">
+        <string> by</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="author">
+       <property name="styleSheet">
+        <string notr="true">#author{  
+    font-family: Georgia, serif;
+	font-size:15px;
+    font-weight: bold;
+
+    border-bottom: solid 1px #006600;
+}</string>
+       </property>
+       <property name="text">
+        <string>Author Placeholder</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>221</x>
+      <y>81</y>
+      <width>113</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="publisher">
+       <property name="text">
+        <string>Publisher placeholder</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="catagory">
+       <property name="text">
+        <string>Caragory placeholder</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="page_count">
+       <property name="text">
+        <string>pace count placeholder</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="publishdate">
+       <property name="text">
+        <string>publish date</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>200</y>
+     <width>581</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox_2{
+	background-color:white;
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_9{
+    font-family: Georgia, serif;
+	font-size:18px;
+    font-weight: bold;
+   
+    border-bottom: solid 1px #006600;
+}</string>
+    </property>
+    <property name="text">
+     <string>Description :-</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>381</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="description">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>521</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#description{
+	border: 0px;
+}</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>531</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="buy_now">
+      <property name="styleSheet">
+       <string notr="true">#buy_now{
+background:#00cc00;
+width:180px;
+padding: 4px 0;
+position:absolute;
+border-radius: 5px;
+color:#ffffff;
+font-size:18px;
+}
+
+#buy_now::hover{
+	background:#009900;
+}</string>
+      </property>
+      <property name="text">
+       <string>Buy now</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>choosebook</class>
+ <widget class="QDialog" name="choosebook">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#ffffff</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>50</y>
+     <width>251</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox{
+background-color:white;
+border:1px solid black;
+border-radius:10px;
+}
+</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>230</width>
+      <height>114</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLineEdit" name="lineEdit_isbnInput">
+         <property name="styleSheet">
+          <string notr="true">#lineEdit_isbnInput{
+    width: 100%;
+
+    font-family: inherit;
+    padding: 5px 0;
+    height: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #C8CCD4;
+    background: none;
+    border-radius: 5px;
+    color: #223254;
+}</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_isbnSubmit">
+         <property name="styleSheet">
+          <string notr="true">#pushButton_isbnSubmit{
+background:#3498db;
+width:180px;
+padding: 4px 0;
+position:absolute;
+border-radius: 5px;
+color:#ffffff;
+font-size:18px;
+}
+
+#pushButton_isbnSubmit::hover{
+	background:#2283c3;
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>Go ahead</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>10</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_2{  
+    font-family: Georgia, serif;
+	font-size:12px;
+    font-weight: bold;
+    color: grey;
+    border-bottom: solid 1px #006600;
+}</string>
+    </property>
+    <property name="text">
+     <string>Search the book</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="background_image">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>-140</y>
+     <width>301</width>
+     <height>621</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:black;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="quote_label">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>230</y>
+     <width>241</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#quote_label{  
+    font-family: Georgia, serif;
+	font: 12pt &quot;Comic Sans MS&quot;;
+    font-weight: bold;
+    color: #6d86BB;
+    border-bottom: solid 1px #006600;
+}</string>
+   </property>
+   <property name="text">
+    <string>&quot;So many books so little time&quot;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="quote_author">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>250</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#quote_author{  
+    font-family: Georgia, serif;
+	font: 8pt &quot;Comic Sans MS&quot;;
+    font-weight: bold;
+    color: #6d86BB;
+    letter-spacing: 1px;
+    border-bottom: solid 1px #006600;
+}</string>
+   </property>
+   <property name="text">
+    <string>-Frank Zappa</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>10</y>
+     <width>221</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label{  
+    font-family: Georgia, serif;
+	font-size:18px;
+    font-weight: bold;
+    color: grey;
+    border-bottom: solid 1px #006600;
+}</string>
+   </property>
+   <property name="text">
+    <string>Wisdom Book Search</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

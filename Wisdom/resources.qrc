@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>rec/splashscreen.jpg</file>
+        <file>rec/serach.jpg</file>
+        <file>rec/c.jpg</file>
+        <file>rec/book.png</file>
+    </qresource>
+</RCC>
